@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Home page is Displyed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case createTaksTc is pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35757" started-at="2021-03-20T10:49:55Z" finished-at="2021-03-20T10:50:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35757" started-at="2021-03-20T10:49:55Z" finished-at="2021-03-20T10:50:31Z">
+      <class name="org.tests.CreateTaks">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.tests.CreateTaks@d2cc05a]" name="openBrowser" is-config="true" duration-ms="27458" started-at="2021-03-20T16:19:55Z" finished-at="2021-03-20T16:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createTaksTc()[pri:0, instance:org.tests.CreateTaks@d2cc05a]" name="createTaksTc" duration-ms="8022" started-at="2021-03-20T16:20:22Z" finished-at="2021-03-20T16:20:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page is Displyed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createTaksTc -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:org.tests.CreateTaks@d2cc05a]" name="closeBrowser" is-config="true" duration-ms="254" started-at="2021-03-20T16:20:30Z" finished-at="2021-03-20T16:20:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createTaksTc status=SUCCESS method=CreateTaks.createTaksTc()[pri:0, instance:org.tests.CreateTaks@d2cc05a] output=Home page is Displyed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case createTaksTc is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.tests.CreateTaks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
